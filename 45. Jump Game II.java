@@ -1,9 +1,9 @@
 class Solution {
     public int jump(int[] nums) {
                 int n = nums.length;
-        int jumps = 0;       // Number of jumps
-        int currentEnd = 0;  // End of the range for the current jump
-        int farthest = 0;    // Farthest index reachable so far
+        int jumps = 0;       
+        int currentEnd = 0;  
+        int farthest = 0;   
 
         // Iterate through the array (except the last element)
         for (int i = 0; i < n - 1; i++) {
