@@ -1,4 +1,6 @@
-Arrays.sort(citations);
+class Solution {
+    public int hIndex(int[] citations) {
+        Arrays.sort(citations);
         
         int n = citations.length;
         int hIndex = 0;
@@ -14,3 +16,6 @@ Arrays.sort(citations);
                 break;
             }
         }
+        return hIndex;
+    }
+}
